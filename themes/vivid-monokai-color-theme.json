@@ -21,6 +21,12 @@
         "editor.foreground": "#A9B7C6",
         "parameterHints.hintForeground": "#9E9E9E",
         "parameterHints.hintBackground": "#3C3F41",
+        "editorError.foreground": "#FF0000",
+        "editorError.background": "#5A2323",
+        "editorWarning.foreground": "#F0F000",
+        "editorWarning.background": "#5A5023",
+        "editorInfo.foreground": "#20999D",
+        "editorInfo.background": "#0E383C"
     },
     "semanticHighlighting": true,
     "semanticTokenColors": {
@@ -30,6 +36,10 @@
         "property.readonly": {
             "fontStyle": "",
             "foreground": "#66E1F8"
+        },
+        "decorator": {
+            "foreground": "#808000",
+            "fontStyle": "bold"
         }
     },
     "tokenColors": [
@@ -233,6 +243,7 @@
             "name": "Strings",
             "scope": [
                 "string.quoted.double",
+                "string.quoted.single",
                 "punctuation.definition.string",
                 "string.template"
             ],
@@ -249,6 +260,82 @@
             "settings": {
                 "foreground": "#AE81FF",
                 "fontStyle": ""
+            }
+        },
+
+        {
+            "name": "HTML - Text and Punctuation",
+            "scope": [
+                "punctuation.definition.tag.begin.html",
+                "punctuation.definition.tag.end.html"
+            ],
+            "settings": {
+                "foreground": "#A9B7C6",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "HTML - Tag",
+            "scope": [
+                "entity.name.tag.html",
+            ],
+            "settings": {
+                "foreground": "#E8BF6A",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "HTML - Tag - Attribute",
+            "scope": [
+                "entity.other.attribute-name.html"
+            ],
+            "settings": {
+                "foreground": "#BABABA",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "HTML - Tag - Attribute - Value",
+            "scope": [
+                "punctuation.definition.string.begin.html",
+                "punctuation.definition.string.end.html",
+                "string.quoted.double.html"
+            ],
+            "settings": {
+                "foreground": "#A5C261",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "HTML - Tag - Angular Binding",
+            "scope": [
+                "entity.other.ng-binding-name.event.html",
+                "entity.other.ng-binding-name.property.html"
+            ],
+            "settings": {
+                "foreground": "#66E1F8",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "HTML - Tag - Angular Binding - Template",
+            "scope": [
+                "entity.other.ng-binding-name.template.html"
+            ],
+            "settings": {
+                "foreground": "#66E1F8",
+                "fontStyle": "italic bold"
+            }
+        },
+        {
+            "name": "HTML - Entity Reference",
+            "scope": [
+                "punctuation.definition.entity.html",
+                "constant.character.entity.named"
+            ],
+            "settings": {
+                "foreground": "#AE81FF",
+                "fontStyle": "bold"
             }
         }
     ]
