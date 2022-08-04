@@ -1,0 +1,21 @@
+{
+  "name": "vivid-monokai",
+  "displayName": "Vivid Monokai",
+  "description": "Dark Monokai inspired with vivid colors",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.69.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Vivid Monokai",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Vivid Monokai-color-theme.json"
+      }
+    ]
+  }
+}
