@@ -337,6 +337,197 @@
                 "foreground": "#AE81FF",
                 "fontStyle": "bold"
             }
+        },
+
+        {
+            "name": "CSS - Keywords",
+            "scope": [
+                "keyword.control.at-rule.media.css",
+                "keyword.control.at-rule.font-face.css",
+                "keyword.control.at-rule.keyframes.css"
+            ],
+            "settings": {
+                "foreground": "#D62967",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "CSS - Text, braces and punctuation",
+            "scope": [
+                "punctuation.terminator.rule",
+                "punctuation.section.function",
+                "punctuation.definition.entity.css"
+            ],
+            "settings": {
+                "foreground": "#A9B7C6",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "CSS - Class, Media and Keyframes",
+            "scope": [
+                "entity.other.attribute-name.class.css",
+                "support.constant.media.css",
+                "support.type.property-name.media.css",
+                "support.type.vendored.property-name.media.css",
+                "variable.parameter.keyframe-list.css"
+            ],
+            "settings": {
+                "foreground": "#A6E22E",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "CSS - Property",
+            "scope": [
+                "support.type.property-name.css",
+                "support.type.vendored.property-name.css"
+            ],
+            "settings": {
+                "foreground": "#66D9EF",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "CSS - Property Value",
+            "scope": [
+                "support.constant.property-value.css",
+                "support.constant.font-name.css",
+                "meta.property-value.css",
+                "keyword.other.unit.px.css",
+                "keyword.other.unit.rem.css",
+                "keyword.other.unit.em.css",
+                "keyword.other.unit.vh.css",
+                "keyword.other.unit.vw.css",
+                "keyword.other.unit.pt.css",
+                "keyword.other.unit.mm.css",
+                "keyword.other.unit.cm.css"
+            ],
+            "settings": {
+                "foreground": "#66D9EF",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "CSS - Tag and Selectors",
+            "scope": [
+                "entity.name.tag.css",
+                "entity.name.tag.wildcard.css",
+                "meta.selector.css",
+                "entity.other.keyframe-offset.css"
+            ],
+            "settings": {
+                "foreground": "#F92672",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "CSS - Attribute Name and Value",
+            "scope": [
+                "entity.other.attribute-name.attribute.css",
+                "string.unquoted.attribute-value.css",
+                "entity.other.attribute-name.css"
+            ],
+            "settings": {
+                "foreground": "#A6E22E",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "CSS - HEX Color",
+            "scope": [
+                "constant.other.color.rgb-value.hex.css"
+            ],
+            "settings": {
+                "foreground": "#A6E22E",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "CSS - Pseudo Selector",
+            "scope": [
+                "entity.other.attribute-name.pseudo-element.css",
+                "entity.other.attribute-name.pseudo-class.css"
+            ],
+            "settings": {
+                "foreground": "#A6E22E",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "SCSS - Keywords",
+            "scope": [
+                "keyword.control.at-rule.import.scss",
+                "keyword.control.at-rule.include.scss",
+                "keyword.operator.scss",
+            ],
+            "settings": {
+                "foreground": "#D62967",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "CSS - Attribute Name and Value",
+            "scope": [
+                "entity.other.attribute-name.attribute.scss",
+                "string.unquoted.attribute-value.scss",
+            ],
+            "settings": {
+                "foreground": "#A6E22E",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "SCSS - Variable",
+            "scope": [
+                "variable.scss"
+            ],
+            "settings": {
+                "foreground": "#FD971F",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "SCSS - Function",
+            "scope": [
+                "support.function.misc.scss",
+                "entity.name.function.scss"
+            ],
+            "settings": {
+                "foreground": "#66D9EF",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "SCSS - &",
+            "scope": [
+                "entity.name.tag.reference.scss"
+            ],
+            "settings": {
+                "foreground": "#F92672",
+                "fontStyle": ""
+            }
+        },
+
+        {
+            "name": "JSON - Keywords",
+            "scope": [
+                "constant.language.json"
+            ],
+            "settings": {
+                "foreground": "#D62967",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "JSON - Properties",
+            "scope": [
+                "support.type.property-name.json"
+            ],
+            "settings": {
+                "foreground": "#66E1F8",
+                "fontStyle": ""
+            }
         }
     ]
 }

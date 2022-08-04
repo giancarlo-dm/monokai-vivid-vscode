@@ -1,13 +1,33 @@
 {
     "name": "vivid-monokai",
     "displayName": "Vivid Monokai",
-    "description": "Dark Monokai inspired with vivid colors",
-    "version": "0.0.1",
+    "description": "Dark Monokai inspired, with vivid colors and semantic highlight. Works for TypeScript/Javascript, HTML, CSS/SCSS and JSON and has preset configuration for Parameter Hints and Angular.",
+    "publisher": "Giancarlo Dalle Mole",
+    "author": {
+        "name": "Giancarlo Dalle Mole",
+        "email": "giancarlo.dallemole1995@gmail.com"
+    },
+    "license": "MIT",
+    "version": "1.0.0",
     "engines": {
         "vscode": "^1.69.0"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/giancarlo-dm/vivid-monokai-vscode"
+    },
+    "bugs": {
+        "url": "https://github.com/giancarlo-dm/vivid-monokai-vscode/issues"
+    },
     "categories": [
         "Themes"
+    ],
+    "keywords": [
+        "Monokai",
+        "Semantic Highlight",
+        "Dark",
+        "Colorful",
+        "Vivid"
     ],
     "contributes": {
         "themes": [
