@@ -14,7 +14,7 @@
             {
                 "label": "Vivid Monokai",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Vivid Monokai-color-theme.json"
+                "path": "./themes/vivid-monokai-color-theme.json"
             }
         ]
     }
