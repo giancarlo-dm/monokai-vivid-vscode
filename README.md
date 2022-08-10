@@ -1,6 +1,11 @@
 # Vivid Monokai
 
-### Dark Monokai inspired, with vivid colors and semantic highlight. Works for TypeScript/Javascript, HTML, CSS/SCSS and JSON and has preset configuration for Parameter Hints and Angular.
+### Dark Monokai inspired, with vivid colors and semantic highlight.
+
+Works for TypeScript/Javascript, HTML, CSS/SCSS, JSON and the embedded Terminal.
+Also has preset configuration for Parameter Hints and Angular Templates.
+
+> The used font on the following images is: [Source Code Pro](https://fonts.google.com/specimen/Source+Code+Pro?query=source+code+pro).
 
 ### TypeScript
 ![Editor Preview](/images/vivid-monokai-ts.png)

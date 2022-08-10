@@ -1,4 +1,5 @@
 {
+    "version": "1.1.0",
     "name": "vivid-monokai",
     "displayName": "Vivid Monokai",
     "description": "Dark Monokai inspired, with vivid colors and semantic highlight. Works for TypeScript/Javascript, HTML, CSS/SCSS and JSON and has preset configuration for Parameter Hints and Angular.",
@@ -8,7 +9,6 @@
         "email": "giancarlo.dallemole1995@gmail.com"
     },
     "license": "MIT",
-    "version": "1.0.0",
     "engines": {
         "vscode": "^1.69.0"
     },
@@ -26,8 +26,8 @@
         "Monokai",
         "Semantic Highlight",
         "Dark",
-        "Colorful",
-        "Vivid"
+        "Vivid",
+        "Colorful"
     ],
     "contributes": {
         "themes": [
