@@ -43,8 +43,16 @@
             "foreground": "#808000",
             "fontStyle": "bold"
         },
+        "namespace": {
+            "foreground": "#AFB42B",
+            "fontStyle": ""
+        },
         "type": {
             "foreground": "#80F2F6",
+            "fontStyle": "bold"
+        },
+        "variable.defaultLibrary": {
+            "foreground": "#D500F9",
             "fontStyle": "bold"
         }
     },
