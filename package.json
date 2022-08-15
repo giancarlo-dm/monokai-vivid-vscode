@@ -1,5 +1,5 @@
 {
-    "version": "1.1.0",
+    "version": "1.1.1",
     "name": "vivid-monokai",
     "displayName": "Vivid Monokai",
     "description": "Dark Monokai inspired, with vivid colors and semantic highlight. Works for TypeScript/Javascript, HTML, CSS/SCSS and JSON and has preset configuration for Parameter Hints and Angular.",

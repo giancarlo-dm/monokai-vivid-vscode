@@ -36,11 +36,15 @@
         "*.static": {
             "fontStyle": "italic"
         },
-        "*.readonly": {
+        "property": {
             "foreground": "#66E1F8"
         },
         "decorator": {
             "foreground": "#808000",
+            "fontStyle": "bold"
+        },
+        "type": {
+            "foreground": "#80F2F6",
             "fontStyle": "bold"
         }
     },
@@ -78,6 +82,7 @@
             "scope": [
                 "constant.language.boolean",
                 "constant.language.null",
+                "constant.language.undefined",
                 "keyword.control.as",
                 "keyword.control.conditional",
                 "keyword.control.export",
