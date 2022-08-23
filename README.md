@@ -19,6 +19,15 @@ Also has preset configuration for Parameter Hints and Angular Templates.
 ### JSON (+ terminal)
 ![Editor Preview](/images/vivid-monokai-json.png)
 
+# Manual instalation
+
+> Please install the following tool first:
+> - npm i -g vsce
+
+1. Open a terminal on the `vivid-monokai-vscode` folder;
+2. Run `vsce package`;
+3. Run `code --install-extension vivid-monokai-<x.x.x>.vsix`, where <x.x.x> is the generated version from the previous command;
+4. Done, now you can choose the theme on VS Code theme menu;
 
 # Repository
 
