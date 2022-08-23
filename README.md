@@ -19,7 +19,7 @@ Also has preset configuration for Parameter Hints and Angular Templates.
 ### JSON (+ terminal)
 ![Editor Preview](/images/vivid-monokai-json.png)
 
-# Manual instalation
+# Manual installation
 
 > Please install the following tool first:
 > - npm i -g vsce
