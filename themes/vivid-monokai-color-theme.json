@@ -102,6 +102,7 @@
                 "constant.language.undefined",
                 "keyword.control.as",
                 "keyword.control.conditional",
+                "keyword.control.default",
                 "keyword.control.export",
                 "keyword.control.flow",
                 "keyword.control.from",
@@ -124,7 +125,16 @@
                 "support.type.builtin",
                 "support.type.primitive",
                 "variable.language.super",
-                "variable.language.this"
+                "variable.language.this",
+                "keyword.other.alias.sql",
+                "keyword.other.create.sql",
+                "keyword.other.DDL.create.II.sql",
+                "keyword.other.DML.sql",
+                "keyword.other.object-comments.sql",
+                "keyword.other.sql",
+                "keyword.other.LUW.sql",
+                "keyword.other.DML.II.sql",
+                "storage.type.sql"
             ],
             "settings": {
                 "foreground": "#DD2867",
@@ -238,7 +248,10 @@
             "name": "Classes",
             "scope": [
                 "entity.name.type.class",
-                "entity.name.type"
+                "entity.name.type",
+                "entity.name.function.sql",
+                "constant.other.database-name.sql",
+                "constant.other.table-name.sql"
             ],
             "settings": {
                 "foreground": "#1290C3",
@@ -260,7 +273,8 @@
         {
             "name": "Classes - Methods",
             "scope": [
-                "entity.name.function"
+                "entity.name.function",
+                "support.function.string.sql"
             ],
             "settings": {
                 "foreground": "#1EB540",
@@ -314,6 +328,7 @@
         {
             "name": "Numbers",
             "scope": [
+                "constant.language.nan",
                 "constant.numeric"
             ],
             "settings": {
@@ -326,7 +341,10 @@
             "name": "HTML - Text and Punctuation",
             "scope": [
                 "punctuation.definition.tag.begin.html",
-                "punctuation.definition.tag.end.html"
+                "punctuation.definition.tag.begin.tsx",
+                "punctuation.definition.tag.end.html",
+                "punctuation.definition.tag.end.tsx",
+                "meta.jsx.children.tsx"
             ],
             "settings": {
                 "foreground": "#A9B7C6",
@@ -337,6 +355,7 @@
             "name": "HTML - Tag",
             "scope": [
                 "entity.name.tag.html",
+                "entity.name.tag.tsx"
             ],
             "settings": {
                 "foreground": "#E8BF6A",
@@ -346,7 +365,8 @@
         {
             "name": "HTML - Tag - Attribute",
             "scope": [
-                "entity.other.attribute-name.html"
+                "entity.other.attribute-name.html",
+                "entity.other.attribute-name.tsx"
             ],
             "settings": {
                 "foreground": "#BABABA",
@@ -357,8 +377,11 @@
             "name": "HTML - Tag - Attribute - Value",
             "scope": [
                 "punctuation.definition.string.begin.html",
+                "meta.tag.attributes.tsx punctuation.definition.string.begin.tsx",
                 "punctuation.definition.string.end.html",
-                "string.quoted.double.html"
+                "meta.tag.attributes.tsx punctuation.definition.string.end.tsx",
+                "string.quoted.double.html",
+                "meta.tag.attributes.tsx string.quoted.double.tsx"
             ],
             "settings": {
                 "foreground": "#A5C261",
@@ -366,10 +389,34 @@
             }
         },
         {
-            "name": "HTML - Tag - Angular Binding",
+            "name": "HTML (JSX) - Tag - Attribute - Value",
+            "scope": [
+                "meta.embedded.expression.tsx string.quoted.double.tsx",
+                "meta.embedded.expression.tsx string.quoted.double.tsx punctuation.definition.string.begin.tsx",
+                "meta.embedded.expression.tsx string.quoted.double.tsx punctuation.definition.string.end.tsx"
+            ],
+            "settings": {
+                "foreground": "#6A8759",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "HTML (JSX) - Component",
+            "scope": [
+                "entity.name.tag.tsx support.class.component.tsx"
+            ],
+            "settings": {
+                "foreground": "#1290C3",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "HTML - Tag - Angular/React Binding",
             "scope": [
                 "entity.other.ng-binding-name.event.html",
-                "entity.other.ng-binding-name.property.html"
+                "entity.other.ng-binding-name.property.html",
+                "meta.tag.attributes.tsx punctuation.section.embedded.begin.tsx",
+                "meta.tag.attributes.tsx punctuation.section.embedded.end.tsx"
             ],
             "settings": {
                 "foreground": "#66E1F8",
@@ -390,7 +437,9 @@
             "name": "HTML - Entity Reference",
             "scope": [
                 "constant.character.entity.named",
-                "punctuation.definition.entity.html"
+                "constant.character.entity.tsx",
+                "punctuation.definition.entity.html",
+                "punctuation.definition.entity.tsx"
             ],
             "settings": {
                 "foreground": "#AE81FF",
